@@ -1,0 +1,10 @@
+button.button.btn-gift {
+  padding: 1.5em 0;
+  text-align: center;
+  padding-bottom: 1em;
+  box-sizing: content-box;
+}
+
+button.button.btn-gift figure {
+  margin: 0em;
+}
