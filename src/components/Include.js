@@ -47,10 +47,10 @@ export default ({ booking, date, time, dropon, include, duration }) => (
     <Columns className='is-mobile'>
       {
         include.map((item) => ([
-          <Columns.Column desktop={{ size: 1, offset: 1}} mobile={{ size: 2 }} tablet={{ size: 1 }}>
+          <Columns.Column desktop={{ size: 1, offset: 1}} mobile={{ size: 1 }} tablet={{ size: 1 }}>
             <Image src={checkmark} size={24} />
           </Columns.Column>,
-          <Columns.Column desktop={{ size:9 }} mobile={{ size: 10 }} tablet={{ size: 11 }}>
+          <Columns.Column desktop={{ size:9 }} mobile={{ size: 11 }} tablet={{ size: 11 }}>
             {item}
           </Columns.Column>
         ]))
