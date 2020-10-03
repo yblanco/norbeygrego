@@ -22,9 +22,7 @@ export default ({ tour, phones, mail, address }) => (
     </Columns>
     <Columns className='has-background-dark has-text-white'>
       <Columns.Column size={12}>
-        Para mayor información y/o cambio de fecha ingresar en <a href='https://turismoi.pe/' className='has-text-info'>turismoi.pe</a>.
-        <br/><b>Usuario:</b> norbelysnaguanagua21@gmail.com
-        <br/><b>Contraseña:</b> Clave
+        Para mayor información y/o cambio de fecha ingresar en <a href='https://turismoi.pe/' className='has-text-info'>turismoi.pe</a> con tu correo y la <b>Contraseña</b> <u>Clave</u>
       </Columns.Column>
     </Columns>
   </Content>

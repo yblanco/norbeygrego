@@ -37,10 +37,10 @@ export default ({ booking, date, time, dropon, include, duration }) => (
       <Columns.Column desktop={{ size:11 }} mobile={{ size: 10 }} tablet={{ size: 11 }} >
         {date} {time}
       </Columns.Column>
-      <Columns.Column desktop={{ size:1 }} mobile={{ size: 2 }} tablet={{ size: 1}}>
+      <Columns.Column desktop={{ size:1 }} mobile={{ size: 2 }} tablet={{ size: 1}} className='is-hidden-mobile'>
         <Image src={place} size={24}/>
       </Columns.Column>
-      <Columns.Column desktop={{ size:11 }} mobile={{ size: 10 }} tablet={{ size: 11 }}>
+      <Columns.Column desktop={{ size:11 }} mobile={{ size: 10 }} tablet={{ size: 11 }} className='is-hidden-mobile'>
         {dropon}
       </Columns.Column>
     </Columns>

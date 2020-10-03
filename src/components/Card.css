@@ -1,0 +1,76 @@
+div.content.card {
+  position: fixed;
+  font-weight: bold;
+  font-family: verdana;
+  text-align: right;
+  transform: rotate(-45deg);
+
+}
+
+div.content.card.has-background-purple {
+  background-color: #e3b1d2;
+}
+
+@media screen and (max-width: 768px) {
+  div.content.card {
+    padding: 0.5em;
+    width: 5.5em;
+    box-shadow: 0.1em 0.1em 1em rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    bottom: -1.1em;
+    font-size: 1.25em;
+    margin-left: 0em;
+  }
+  div.content.card.left1 {
+    left: 0em;
+  }
+  div.content.card.left2 {
+    left: 3em;
+  }
+  div.content.card.left3 {
+    left: 6em;
+  }
+  div.content.card.left4 {
+    left: 9em;
+  }
+  div.content.card.left5 {
+    left: 12em;
+  }
+  div.content.card.left6 {
+    left: 15em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.content.card {
+    font-size: 1.5em;
+    width: 8em;
+    height: 4em;
+    line-height: 4em;
+    padding-right: 1.5em;
+    bottom: -1.5em;
+    border: 1px solid rgba(0,0,0,0.25);
+    left: 8em;
+    box-shadow: 0.25em 0.25em 1em rgba(0,0,0,0.5);
+    border-radius: 1em;
+  }
+
+  div.content.card.left1 {
+    margin-left: 0em;
+  }
+  div.content.card.left2 {
+    margin-left: 4em;
+  }
+  div.content.card.left3 {
+    margin-left: 8em;
+  }
+  div.content.card.left4 {
+    margin-left: 12em;
+  }
+  div.content.card.left5 {
+    margin-left: 16em;
+  }
+  div.content.card.left6 {
+    margin-left: 20em;
+  }
+}
